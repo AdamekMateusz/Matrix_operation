@@ -258,7 +258,7 @@ vector<vector<float>> odwrotna(vector<vector<float>> matrix) {
 }
 
 //function to cont our detrminant
-float wyznaczik(vector<vector<float>> matrix) {
+float wyznaczik(vector<vector<float>> matrix){
 
     vector<vector<float>> matrix_copy{ 0 };
     matrix_copy.resize(matrix.size());
