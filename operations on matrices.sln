@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operations on matrices", "operations on matrices\nowe_podejscie_ogolnie.vcxproj", "{09BA8329-78F8-469D-B5AB-544A43F78CFB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operation on matrices", "operations on matrices\operations on matrices.vcxproj", "{09BA8329-78F8-469D-B5AB-544A43F78CFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

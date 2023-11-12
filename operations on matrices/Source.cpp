@@ -342,7 +342,7 @@ void transpose(vector<vector<float>> &matrix) {
 
 
 //multiplu matrix function
-vector<vector<float> > mnozenie(vector<vector<float>> &matrixA, vector<vector<float>> &matrixB) {
+vector<vector<float> > matrix_multiplication(vector<vector<float>> &matrixA, vector<vector<float>> &matrixB) {
 
 
     transpose(matrixB);
@@ -418,7 +418,7 @@ int main() {
     show_matrix(matrixB);
     cout << endl;
     cout << endl;
-    matrixC = mnozenie(matrixB, matrixA);
+    matrixC = matrix_multiplication(matrixB, matrixA);
     cout << "We multiply the original matrix times the inverse matrix\n";
     cout << "\n";
     show_matrix(matrixC);

@@ -22,9 +22,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{09ba8329-78f8-469d-b5ab-544a43f78cfb}</ProjectGuid>
-    <RootNamespace>nowepodejscieogolnie</RootNamespace>
+    <RootNamespace>operations on matrices</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>operations on matrices</ProjectName>
+    <ProjectName>operation on matrices</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
