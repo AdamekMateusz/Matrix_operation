@@ -138,7 +138,7 @@ void checker(vector<vector<float>>& matrix) {
 }
 
 
-vector<vector<float>> odwrotna(vector<vector<float>> matrix) {
+vector<vector<float>> inverse_matrix(vector<vector<float>> matrix) {
     int row = matrix.size();
     int col = matrix[1].size();
 
@@ -258,7 +258,7 @@ vector<vector<float>> odwrotna(vector<vector<float>> matrix) {
 }
 
 //function to cont our detrminant
-float wyznaczik(vector<vector<float>> matrix){
+float determinant(vector<vector<float>> matrix){
 
     vector<vector<float>> matrix_copy{ 0 };
     matrix_copy.resize(matrix.size());
@@ -412,19 +412,19 @@ int main() {
         matrixC[i].resize(matrixA[0].size());
     }
 
-    matrixB=odwrotna(matrixA);
-    cout << "Macierz odwrotna\n";
+    matrixB=inverse_matrix(matrixA);
+    cout << "Inverse matrix\n";
     cout << "\n";
     show_matrix(matrixB);
     cout << endl;
     cout << endl;
     matrixC = mnozenie(matrixB, matrixA);
-    cout << "Mnozymy macierz pierwotna razy macierz odwrotna\n";
+    cout << "We multiply the original matrix times the inverse matrix\n";
     cout << "\n";
     show_matrix(matrixC);
     cout << endl;
     cout << endl;
-    cout << "Wyznacznik: " << wyznaczik(matrixA) << endl;
+    cout << "Determinant: " << determinant(matrixA) << endl;
 
     return 0;
 }
